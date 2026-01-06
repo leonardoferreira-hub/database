@@ -1,0 +1,26 @@
+{
+  "name": "supabase-cotacoes",
+  "version": "1.0.0",
+  "description": "Edge Functions para sistema de cotações de securitização",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supabase start",
+    "stop": "supabase stop",
+    "deploy": "supabase functions deploy",
+    "deploy:fluxo0": "supabase functions deploy fluxo-0-listar-emissoes && supabase functions deploy fluxo-0-detalhes-emissao",
+    "deploy:fluxo1": "supabase functions deploy fluxo-1-criar-emissao && supabase functions deploy fluxo-1-atualizar-emissao && supabase functions deploy fluxo-1-salvar-custos",
+    "deploy:fluxo2": "supabase functions deploy fluxo-2-gerar-pdf && supabase functions deploy fluxo-2-finalizar-proposta",
+    "list": "supabase functions list"
+  },
+  "keywords": [
+    "supabase",
+    "edge-functions",
+    "securitizacao",
+    "cotacoes"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "supabase": "^1.123.0"
+  }
+}
