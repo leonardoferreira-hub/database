@@ -21,6 +21,6 @@
   "author": "Seu Nome",
   "license": "MIT",
   "devDependencies": {
-    "supabase": "^1.123.0"
+    "supabase": "^1.226.4"
   }
 }

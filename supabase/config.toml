@@ -1,21 +1,4 @@
-# Supabase Configuration
+# Supabase Configuration File
+# Leave empty - Supabase will use default values
 
-[api]
-# Configurações da API
-enabled = true
-
-[db]
-# Configurações do banco de dados
-enabled = true
-
-[auth]
-# Configurações de autenticação
-enabled = true
-
-[storage]
-# Configurações de armazenamento
-enabled = true
-
-[functions]
-# Configurações de Edge Functions
-enabled = true
+project_id = "gthtvpujwukbfgokghne"
